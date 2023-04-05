@@ -1,0 +1,52 @@
+
+.wrap > .note-header {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.note-form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.note-form :is(input, .wp-editor-wrap, select) {
+    margin-bottom: 20px;
+}
+
+input.note-title {
+    width: 100%;
+    padding: 0.2em 0.5em;
+    font-size: 1.125rem;
+}
+
+.label-wrap {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label-wrap span {
+    text-align: center;
+}
+
+.label-wrap > select {
+    width: 165px;
+    text-align-last: center;
+}
+
+.row-group {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.note-form p.submit {
+    padding: unset;
+    margin-left: auto;
+}
+
+/* form > table.form-table td,
+form > table.form-table th {
+    display: block;
+    width: 100%;
+} */
