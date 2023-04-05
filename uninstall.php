@@ -8,7 +8,7 @@ global $wpdb;
 
 // Cleaning installed plugin fields in database !
 $wpdb->query(
-	"DELETE a, b, c, d
+	"DELETE a, b, c
     FROM `wp_posts` a 
     LEFT JOIN `wp_term_relationships` b 
         ON (a.ID = b.object_id)
